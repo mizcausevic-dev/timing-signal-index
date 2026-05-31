@@ -1,46 +1,9 @@
-# Timing Signal Index
+> **🚫 Archived 2026-05-31 — superseded by the AI Procurement Pulse (pulse.kineticgain.com) + Portfolio Triage Sheet (/portfolio-triage/)**
+>
+> Recurring signal indexing across our own estate is internal-facing infrastructure better captured by the public Pulse quarterly cadence + the Portfolio Triage Sheet. Not a buyer-facing product on its own.
+>
+> This repo is left public as a historical record of the exec-family expansion sweep. Use the linked successor for ongoing buyer-facing surfaces. The README content below is preserved as-was at archive time.
 
-Recurring signal index for timing windows, board pressure, savings relevance, conviction, and next-read sequencing across the Kinetic Gain executive-intelligence estate.
+---# Timing Signal Index
 
-- Live: `http://timing.kineticgain.com/`
-- Status: `v0.1-shipped`
-
-## What it does
-
-- signal lane covering theme, target buyer, timing band, and next read
-- window map tying pressure, conviction, and savings relevance to recurring market signals
-- board-pressure layer showing which themes are strongest for the next memo
-- priority-band view rolling signals into `act now`, `prepare`, and `watch` clusters
-- reproducible CLI and static site from the same sample signal export
-
-## Local run
-
-```powershell
-cd timing-signal-index
-npm install
-npm run verify
-npm run prerender
-```
-
-Then open:
-
-- `/`
-- `/signal-lane`
-- `/window-map`
-- `/board-pressure`
-- `/priority-bands`
-- `/verification`
-- `/docs`
-
-## CLI
-
-```powershell
-npx timing-signal-index fixtures/timing-signal-index.json --format summary
-npx timing-signal-index fixtures/timing-signal-index-clean.json --format json
-```
-
-## Notes
-
-- synthetic sample data only
-- signal timing and pressure values are modeled, not live CRM or market feeds
-- footer links point to GitHub, LinkedIn, and Kinetic Gain
+Recurring signal index
